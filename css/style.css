@@ -1,0 +1,24 @@
+.navbar-toggle{
+    float:left;
+}
+
+.navbar{
+    margin-bottom:0;
+    padding-left:20px;
+}
+
+
+@media (max-width: 767px) {
+.hiddenMenu {
+    display: none!important;
+    }
+}
+
+.visibleMenu {
+    display:block!important;
+}
+
+#map {
+    height: 530px;
+    width: 100%;
+}
