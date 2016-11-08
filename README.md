@@ -26,3 +26,5 @@ A simple responsive web app that shows my favorite coffee shops in Palo Alto usi
 * http://stackoverflow.com/questions/12460378/how-to-get-json-from-url-in-javascript
 * http://stackoverflow.com/questions/6129145/pass-extra-parameter-to-jquery-getjson-success-callback-function
 * http://stackoverflow.com/questions/11234920/changing-css-class-in-knockout-js-on-mouse-click
+* http://jshint.com/
+* http://opensoul.org/2011/06/23/live-search-with-knockoutjs/
