@@ -77,7 +77,7 @@ var viewModel = function() {
                 animation: null,
                 visible: true
             }));
-            marker = self.locations()[i].marker()
+            marker = self.locations()[i].marker();
             //add a click listener to all markers
             google.maps.event.addListener(marker, 'click', (function(marker, i) {
                 //bounce the marker when clicked
@@ -98,7 +98,7 @@ var viewModel = function() {
                 };
             })(marker, i));
         }
-    }
+    };
     self.markers();
 
     //Get the Foursquare Venue ID and Likes
@@ -202,8 +202,8 @@ var viewModel = function() {
 function initMap() {
     //Apply the bindings for our ViewModel
     ko.applyBindings(new viewModel());
-};
+}
 
 function error() {
     alert('Unable to load Google Maps API, please come back later.');
-};
+}
